@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activity.MenuActivity">
+
+
+    <TextView
+        android:onClick="profile_click"
+        android:clickable="true"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tv_style"
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:onClick="favorite_click"
+        android:clickable="true"
+        android:layout_below="@id/profile"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/tv_style"
+        android:id="@+id/favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yoqtirganlar"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:onClick="kurilgan_click"
+        android:clickable="true"
+        android:layout_below="@id/favorite"
+        android:id="@+id/kurilganlar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/tv_style"
+        android:padding="5dp"
+        android:text="Ko'rilganlar"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="#C3E1EF"
+        app:itemIconSize="30dp"
+        app:itemTextColor="#752813"
+        app:itemIconTint="@color/design_default_color_primary"
+        />
+
+</RelativeLayout>

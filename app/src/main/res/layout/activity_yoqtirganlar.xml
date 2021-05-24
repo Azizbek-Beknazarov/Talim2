@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".Activity.YoqtirganlarActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/bush"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="250dp"-->
+<!--        android:text="Yoqtirilgan kurslar topilmadi."-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="40sp"-->
+<!--        android:textStyle="bold|italic"-->
+<!--        android:visibility="visible"></TextView>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_yoq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:listitem="@layout/item_fanlar"></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

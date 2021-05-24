@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ta’lim</string>
+    <string name="akkaunt_yaratib_siz_bizning_qoidalar_va_maxfiylik_siyosatimizga_rozilik_bildirgan_bo_lasiz">Akkaunt yaratib siz bizning Qoidalar va Maxfiylik siyosatimizga rozilik bildirgan bo‘lasiz.</string>
+    <string name="kirish">Kirish</string>
+    <string name="parolni_unutdingizmi">Parolni unutdingizmi?</string>
+    <string name="ro_yxatdan_o_tish_vaqtida_foydalangan_elektron_pochta_manzilingizni_kiriting">Ro‘yxatdan o‘tish vaqtida foydalangan elektron pochta manzilingizni kiriting</string>
+    <string name="izlash">Izlash</string>
+    <string name="parolni_tasdiqlash">Parolni tasdiqlash</string>
+</resources>

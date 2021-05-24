@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+android:textColor="#0972C5"
+        android:id="@+id/text_view_fan_nomi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/reklama_style"
+        android:gravity="center_horizontal"
+        android:padding="4dp"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reklama_Image"
+        app:layout_constraintTop_toTopOf="@+id/reklama_Image"></TextView>
+
+    <TextView
+        android:textColor="#0972C5"
+        android:id="@+id/text_view_uqituvchi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/reklama_style"
+        android:gravity="center_horizontal"
+        android:padding="2dp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text_view_fan_nomi"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_fan_nomi"></TextView>
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/reklama_Image"
+        android:layout_width="70dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52"
+        app:srcCompat="@drawable/button_style" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
